@@ -1,0 +1,23 @@
+{
+  "name": "git-workshop-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "kc-serve --theme black --highlight darkula -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avassem85/git-workshop-slides.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avassem85/git-workshop-slides/issues"
+  },
+  "homepage": "https://github.com/avassem85/git-workshop-slides#readme",
+  "dependencies": {
+    "@infosupport/kc-serve": "^2.1.6"
+  }
+}

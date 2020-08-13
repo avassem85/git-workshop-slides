@@ -1,0 +1,7 @@
+img[src*="#right"] {
+    float: right;
+ }
+
+ img[src*="#left"] {
+    float: left;
+ }
