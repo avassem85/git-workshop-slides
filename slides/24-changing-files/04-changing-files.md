@@ -68,19 +68,19 @@ When we would like to make changes to a file in the repository, we take 5 steps:
 - In `MyWebSite/spec/MyNewFeature.feature`, we add a narrative: 
 
     ```
-    Feature: Title of this cool feature 
+Feature: Title of this cool feature 
 
-    In order to perform my task 
-    as a user 
-    I want to be helped in a cool way 
+In order to perform my task 
+as a user 
+I want to be helped in a cool way 
     ```
- 
+
 - Save the file
 
 - Verify that Git has not yet staged the changes (i.e. they are not included in a commit): 
 
     ```
-    git status
+git status
     ```
  
 ---
@@ -105,9 +105,9 @@ When we would like to make changes to a file in the repository, we take 5 steps:
 
 - All files that have been changed (or added) can now be committed. Each commit has to have a Commit Message that specifies what has been changed in this commit. 
 
-```
-git commit -m "Narrative added for MyNewFeature" 
-```
+    ```
+    git commit -m "Narrative added for MyNewFeature" 
+    ```
 
 - Optinally, verify that the change now has been committed locally: 
 

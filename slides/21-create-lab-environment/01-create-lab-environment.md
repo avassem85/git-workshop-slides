@@ -9,9 +9,11 @@
 - Download installer https://git-scm.com/downloads
 - Run Git Installer with default options
 - Run Git BASH (Windows) or Terminal (MacOs)
-- Run `git --version`
-- Run `git config --global user.name "<Your Name>"`
-- Run `git config --global user.email <youremail@example.com>`
+  ```
+  git --version
+  git config --global user.name "<Your Name>"
+  git config --global user.email <youremail@example.com>
+  ```
 
 ---
 
@@ -20,7 +22,9 @@
 - Download installer https://code.visualstudio.com/download
 - Run installer with default options
 - Run Git BASH (Windows) or Terminal (MacOs)
-- Run `code`
+  ```
+  code
+  ```
 
 ---
 
@@ -28,10 +32,11 @@
 
 - Run Git BASH (Windows) or Terminal (MacOs)
 - Create directory/folder where you will keep the source code for all of your projects (e.g. "C:\workspace", or some other name, in some other location) Each project will get its own directory/folder.
-  - Run `cd /c/` on Windows or `cd` on Mac
-  - Run `mkdir workspace`
-  - Run `cd workspace`
-  - 
+  ```
+  mkdir workspace
+  cd workspace
+  ```
+  
 ---
 
 ## Create a lab environment
