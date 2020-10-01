@@ -7,3 +7,5 @@
   - Git
   - Visual Studio Code
   - Github
+- Closing
+  - Evaluation
