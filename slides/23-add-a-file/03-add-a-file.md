@@ -16,7 +16,7 @@ Add all changed files to staging
 ```
 git add .
 ```
-ß
+
 Add specific file to staging
 ```
 git add <file>
