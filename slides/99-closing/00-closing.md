@@ -1,1 +1,0 @@
-<!-- .slide: class="is-closing" -->
