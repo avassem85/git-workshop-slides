@@ -163,14 +163,25 @@ git status
 
 ---
 
+## Pull request
+
+![Git branches](../../img/pullrequest.png)
+
+---
+
+## Pull request
+
+![Git branches](../../img/branches.png)
+
+---
+
 ### Create a pull request on github
 
 - Navigate to your git repository https://github.com/{username}/Git-workshop
 - Navigate to `Pull request` -> `New pull request`
-    - Select base repository: `{username}/Git-workshop`
+    - Select repository: `{username}/Git-workshop`
     - Select base: `master`
-    - Select head repositoy: `{username}/Git-workshop`
-    - Select head: `feature/change-feature-file`
+    - Select compare: `feature/change-feature-file`
     - Click on `Create pull request`
     - Click on `Create pull request`
 
