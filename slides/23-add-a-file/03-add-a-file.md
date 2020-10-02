@@ -39,9 +39,9 @@ Add all changed files to staging
 git add .
 ```
 
-Add specific file to staging
+Add specific file "test.md" to staging
 ```
-git add <file>
+git add testm.md
 ```
 
 ---
@@ -151,11 +151,6 @@ sequenceDiagram
 Commit changes to local repository with message. When you don't use -m you get a local text add to fill in the message.
 ```
 git commit -m 'Commit message'
-```
-
-Commit all changes in local workspace to local repository (git add + git commit)
-```
-git commit -a 
 ```
 
 ---

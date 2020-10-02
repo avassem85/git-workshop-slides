@@ -16,6 +16,7 @@ sequenceDiagram
     participant rr as Remote: Repository
     Note over rr,lr: Create a copy of an remote repository
     rr->>lr: git clone
+    lr->>lw: 
     #Note over lw,lr: Switch to another branch on local workspace
     #lr->>lw: git checkout
     #Note over lw,ls: A new files
@@ -28,34 +29,37 @@ sequenceDiagram
     #rr->>lr: git fetch
     #Note over lw,rr: Update latest changes from remote repository & Apply on local repository
     #rr->>lw: git pull
+		
 ``` -->
 
 ---
 
 ## Git clone commands
 
-Clone a remote repository to local repository
-```
-git clone <url remote repository>
-```
+- Clone a remote repository to local repository
+    ```
+    git clone https://github.com/avassem85/Git-workshop.git
+    ```
 
-Clone a remote repository to local repository with specific directory name instead of name of remote repository
-```
-git clone <url remote repository> <directory name>
-```
+- Clone a remote repository to local repository with specific directory name "workshop" instead of name of remote repository "git-workshop".
+    ```
+    git clone https://github.com/avassem85/Git-workshop.git workshop
+    ```
 
 ---
 
 ## Git clone
 
-Clone remote repository
+- Navigate to your git repository https://github.com/{username}/Git-workshop
+  - Click on Code -> HTTPS -> Copy url (Clipboard)
+- Clone remote repository
 
-``` bash
-git clone https://github.com/{username}/Git-workshop.git
-```
-⚠️ *Replace {username} with your own github username*
+    ``` bash
+    git clone https://github.com/{username}/Git-workshop.git
+    ```
+    ⚠️ *Replace {username} with your own github username*
 
-This creates a directory “Git-workshop” in the workspace-directory, makes the a local Git repository, and creates a copy of all content in the central Git repository. 
+- This creates a directory “Git-workshop” in the workspace-directory, makes the a local Git repository, and creates a copy of all content in the central Git repository. 
 
 ---
 

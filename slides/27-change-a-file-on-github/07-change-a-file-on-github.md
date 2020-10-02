@@ -6,7 +6,7 @@
 
 ## Lab: Change a file on github
 
-When we would like to make changes to a file in the repository, we take 6 steps: 
+When we would like to make changes to a file in the repository, we take 2 steps: 
 
 1. Edit a file on github ✅
 2. Commit changes to master on github ✅
